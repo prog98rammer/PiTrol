@@ -3,9 +3,7 @@
 
 
 # Authors
--
 [Fadi Hanna Al-Kass] (https://github.com/alkass)
 
 # Contributors
--
 [Contributors](CONTRIBUTORS.md)
