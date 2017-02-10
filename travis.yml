@@ -7,4 +7,4 @@ node_js:
   - "iojs"
 sudo: required
 script:
-  - node main.js
+  - echo this is a test
