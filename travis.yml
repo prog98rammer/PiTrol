@@ -1,4 +1,3 @@
-sudo: required
 language: node_js
 node_js:
   - "6"
@@ -6,4 +5,5 @@ node_js:
   - "5.11"
   - "0.6"
   - "iojs"
+sudo: required
 script: npm install
