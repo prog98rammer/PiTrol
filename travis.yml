@@ -6,4 +6,5 @@ node_js:
   - "0.6"
   - "iojs"
 sudo: required
-script: node main.js
+script:
+  - node main.js
