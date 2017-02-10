@@ -6,4 +6,4 @@ node_js:
   - "0.6"
   - "iojs"
 sudo: required
-script: npm install
+script: node main.js
