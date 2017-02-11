@@ -1,7 +1,7 @@
 function unifyParams(request)
 {
 	// To-Do: Implement
-	return {name: 3};
+	return {};
 }
 
 function isValidRequest(request, requiredParams, response)
@@ -24,7 +24,7 @@ function isValidRequest(request, requiredParams, response)
 			messages: messages
 		}
 		response.status(res.status).json(res);
-		return false;	
+		return false;
 	}
 	return true;
 }
