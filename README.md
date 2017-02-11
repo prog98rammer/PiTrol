@@ -18,7 +18,7 @@ TBA
 ```
 2. Check out a copy of the project
 ```bash
-  $ git clone https://github.com/AlKass/PiTrol && cd piTrol
+  $ git clone https://github.com/AlKass/PiTrol && cd PiTrol
 ```
 
 3. Run the project
