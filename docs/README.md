@@ -19,6 +19,6 @@ Let's walk you through building your first PiTrol plugin.
 
 2. Redirect into the newly create directory and create your `index.js` file. We'll come back and add some code to this source file later.
 
-> Remember that we treat plugins as packages, so `index.js` is needed.
+  > Remember that we treat plugins as packages, so `index.js` is needed.
 
 3. 
