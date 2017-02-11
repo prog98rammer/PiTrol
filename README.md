@@ -8,7 +8,7 @@ PiTrol is a project that allows you to monitor and control your Raspberry Pi ove
 
 
 # Tools & Resources
-We maintain our design planning and development process in a Waffle.io management board. Click [here](https://waffle.io/AlKass/PiTrol) to join the development board.
+* We maintain our design planning and development process in a Waffle.io management board. Click [here](https://waffle.io/AlKass/PiTrol) to join the development board.
 
 # How to Contribute
 All contribution-related information can be found [here](Contribution.md)
