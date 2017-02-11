@@ -17,24 +17,24 @@ TBA
 
 ## Usage
 1. Check out a copy of the project
-```bash
-  $ git clone https://github.com/AlKass/PiTrol && cd PiTrol
-```
+  ```bash
+    $ git clone https://github.com/AlKass/PiTrol && cd PiTrol
+  ```
 
 2. Install all dependencies
-```bash
-  npm install
-```
+  ```bash
+    npm install
+  ```
 
 3. Build to 'build' directory
-```bash
-  npm run build
-```
+  ```bash
+    npm run build
+  ```
 
 4. Start the app
-```bash
-  node server
-```
+  ```bash
+    node server
+  ```
 
 ## How to Contribute
 Have a feature in mind you'd like to add to the project? [Send a pull request](https://github.com/AlKass/PiTrol/pulls)
