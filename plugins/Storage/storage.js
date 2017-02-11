@@ -2,5 +2,5 @@
 
 module.exports.storageDetails = function(req, res)
 {
-  console.log("this is storageDetails");
+  res.status(200).json({message: "this is storageDetails"});
 };

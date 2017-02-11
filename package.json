@@ -4,11 +4,12 @@
   "description": "Raspberry Pi Web Controller",
   "main": "main.js",
   "scripts": {
-    "run": "node main.js"
+    "start": "node main.js"
   },
   "author": "Fadi Hanna Al-Kass",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.1",
     "express": "^4.14.1"
   }
 }

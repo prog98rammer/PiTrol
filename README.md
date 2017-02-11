@@ -27,7 +27,7 @@ TBA
 
 3. Run the project
 ```bash
-  npm install && npm run-script run
+  npm install && npm start
 ```
 
 ## How to Contribute

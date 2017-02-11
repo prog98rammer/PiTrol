@@ -2,5 +2,5 @@
 
 module.exports.cpuDetails = function(req, res)
 {
-  console.log("this is cpuDetails");
+  res.status(200).json({message: "this is cpuDetails"});
 };
