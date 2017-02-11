@@ -1,13 +1,17 @@
-// index.js
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { browserHistory } from 'react-router'
-
-import Routes from './routes';
 
 import './index.css';
 
+class App extends Component
+{
+  render()
+  {
+    return <h1>hello</h1>;
+  }
+}
+
 ReactDOM.render(
-  <Routes history={browserHistory} />,
+  <App />,
   document.getElementById('root')
 );
