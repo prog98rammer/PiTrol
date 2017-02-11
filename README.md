@@ -1,6 +1,8 @@
 
 ** Work in progress **
 
+![logo](static/media/images/Logo-256.png)
+
 [![Build Status](https://travis-ci.org/AlKass/PiTrol.svg?branch=master)](https://travis-ci.org/AlKass/PiTrol)
 
 # PiTrol
