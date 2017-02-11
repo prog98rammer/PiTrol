@@ -3,6 +3,8 @@
 <img src="static/media/images/Logo-256.png" width=120 />
 
 # PiTrol
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/AlKass/PiTrol.svg)](https://greenkeeper.io/)
 PiTrol is a project that allows you to monitor and control your Raspberry Pi over a web browser.
 
 # How to Contribute
