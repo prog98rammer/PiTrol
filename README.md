@@ -1,11 +1,11 @@
 <div align="center">
-  <p>** Work in progress **</p>
+  <h3>** Work in progress **</h3>
 </div>
 
 [![Build Status](https://travis-ci.org/AlKass/PiTrol.svg?branch=master)](https://travis-ci.org/AlKass/PiTrol)
 [![Greenkeeper badge](https://badges.greenkeeper.io/AlKass/PiTrol.svg)](https://greenkeeper.io/)
 
-<div align="center">
+<div align="right">
   <img src="static/media/images/Logo-256.png" width=120 />
 </div>
 
