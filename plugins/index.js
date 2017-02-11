@@ -1,7 +1,7 @@
 module.exports = [
   {
-    name: "Storage",
-    ref: require("./Storage")
+    name: "PiStatus",
+    ref: require("./PiStatus")
   },
   // More plugins can be added here
 ];
