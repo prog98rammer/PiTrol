@@ -28,6 +28,7 @@ TBA
 
 ## How to Contribute
 Have a feature in mind you'd like to add to the project? Send a pull request
+
 Want a feature that you can't/don't know how to implement? Start an issue
 
 ## Tools & Resources
