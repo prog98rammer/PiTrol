@@ -8,10 +8,9 @@
 
 
 <div align="left">
-<img src="https://travis-ci.org/AlKass/PiTrol.svg?branch=master" />
-</div>
-  [![Build Status](https://travis-ci.org/AlKass/PiTrol.svg?branch=master)](https://travis-ci.org/AlKass/PiTrol)
-[![Greenkeeper badge](https://badges.greenkeeper.io/AlKass/PiTrol.svg)](https://greenkeeper.io/)
+  <a href="https://travis-ci.org/AlKass/PiTrol">
+    <img src="https://travis-ci.org/AlKass/PiTrol.svg?branch=master" />
+  </a>
 </div>
 
 <div align="right">
