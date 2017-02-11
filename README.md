@@ -29,7 +29,7 @@ TBA
 ## How to Contribute
 Have a feature in mind you'd like to add to the project? Send a pull request
 
-Want a feature that you can't/don't know how to implement? Start an issue
+Want a feature that you don't quiet know how to implement? Place an issue
 
 ## Tools & Resources
 * We maintain our design planning and development process in a Waffle.io management board. Click [here](https://waffle.io/AlKass/PiTrol) to join the development board.
