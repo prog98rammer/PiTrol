@@ -14,7 +14,7 @@ TBA
 ## Usage
 1. Install `nodejs` and `npm` onto the Pi if not installed already.
 ```bash
-  sudo apt-get install -y node npm
+  sudo apt-get install -y nodejs npm
 ```
 2. Check out a copy of the project
 ```bash
