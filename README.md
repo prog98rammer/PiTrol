@@ -6,7 +6,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/AlKass/PiTrol.svg)](https://greenkeeper.io/)
 
 <div align="center">
-  <img src="static/media/images/Logo-256.png" width=120 />
+  <img src="static/media/images/Logo-256.png" width=150 />
 </div>
 
 # PiTrol
