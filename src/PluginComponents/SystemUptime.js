@@ -25,7 +25,7 @@ export class SystemUptime extends Component
       case null:
         return "Loading";
       case undefined:
-        return "System is down";
+        return "System is Down";
       default:
         return `${this.state.hours} Hr(s) + ${this.state.minutes} Min(s)`;
     }
