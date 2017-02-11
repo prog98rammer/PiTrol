@@ -8,6 +8,7 @@ const app = express();
 // Middlewear Settings
 app.use(cors());
 app.use(express.static(path.resolve(__dirname, "..", "build")));
+app.use("/static", express.static(path.resolve(__dirname, "..", "static")));
 
 const METHODS = {
   "GET": app.get.bind(app),

@@ -1,17 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import WebApp from './webapp';
 
-import './index.css';
-
-class App extends Component
-{
-  render()
-  {
-    return <h1>hello</h1>;
-  }
-}
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+ReactDOM.render(<WebApp />, document.getElementById('root'));
