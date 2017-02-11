@@ -12,7 +12,19 @@ PiTrol is a project that allows you to monitor and control your Raspberry Pi ove
 TBA
 
 ## Usage
-TBA
+1. Install `nodejs` and `npm` onto the Pi if not installed already.
+```bash
+  sudo apt-get install -y node npm
+```
+2. Check out a copy of the project
+```bash
+  $ git clone https://github.com/AlKass/PiTrol && cd piTrol
+```
+
+3. Run the project
+```bash
+  npm install && npm run-script run
+```
 
 ## How to Contribute
 TBA
