@@ -13,4 +13,4 @@ All contribution-related information can be found [here](Contribution.md)
 [Fadi Hanna Al-Kass] (https://github.com/alkass)
 
 # Contributors
-[Contributors](CONTRIBUTORS.md)
+Our list of contributors contains everyone who has ever invested time or resources into the project. Check it out [here](CONTRIBUTORS.md)
