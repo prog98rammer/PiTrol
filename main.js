@@ -47,4 +47,5 @@ const argv = process.argv.splice(2);
 const port = argv[0] || 8001;
 app.listen(port, () => {
   console.log(`Server is up at 0.0.0.0:${port}`);
+  process.exit();
 });
