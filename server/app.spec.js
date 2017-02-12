@@ -1,6 +1,5 @@
-const app = require('./app');
-const express = require('express');
+const app = require('./app')
 
-test('exports express instance', function() {
-  expect(app).toBeInstanceOf(Function);
-});
+test('exports express instance', function () {
+  expect(app).toBeInstanceOf(Function)
+})

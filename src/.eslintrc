@@ -1,0 +1,9 @@
+{
+  "extends": "../node_modules/react-scripts/.eslintrc",
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "strict": 0
+  }
+}
