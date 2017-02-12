@@ -19,7 +19,7 @@ function getDirectories (srcpath) {
 function requireModulesFromArray (modules) {
   const _modules = []
   modules.forEach(function (module) {
-    let _module = require(path.join(__dirname, module))[0]
+    let _module = require(path.join(__dirname, module))
     _modules.push({
       'name': module,
       'ref': _module
