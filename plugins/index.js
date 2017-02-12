@@ -21,7 +21,7 @@ function requireModulesFromArray(modules) {
     modules.forEach(function(module) {
       let _module = require(path.join(__dirname, module))[0];
       _modules.push({
-        'name': _module.name,
+        'name': module,
         'ref' : _module
       });
     });
