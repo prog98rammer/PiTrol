@@ -1,5 +1,8 @@
-[![Build Status](https://travis-ci.org/AlKass/PiTrol.svg?branch=master)](https://travis-ci.org/AlKass/PiTrol)
-[![Greenkeeper badge](https://badges.greenkeeper.io/AlKass/PiTrol.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/fadeenk/PiTrol.svg?branch=master)](https://travis-ci.org/fadeenk/PiTrol)
+[![Coverage Status](https://coveralls.io/repos/github/fadeenk/PiTrol/badge.svg?branch=master)](https://coveralls.io/github/fadeenk/PiTrol?branch=master)
+[![Greenkeeper badge](https://badges.greenkeeper.io/fadeenk/PiTrol.svg)](https://greenkeeper.io/)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+
 
 <div align="center">
   <img src="favicon.ico" width=150 />
