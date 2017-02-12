@@ -3,6 +3,7 @@ node_js:
   - "6"
   - "7"
 script:
+  - "npm run eslint"
   - "npm run test"
 after_script:
   - "npm install coveralls && cat coverage/lcov.info | coveralls"
