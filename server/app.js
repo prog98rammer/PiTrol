@@ -7,8 +7,8 @@ const app = express()
 
 // Middleware Settings
 app.use(cors())
-app.use(express.static(path.resolve(__dirname, "..", "build")))
-app.use("/public", express.static(path.resolve(__dirname, "..", "static")))
+app.use(express.static(path.resolve(__dirname, '..', 'build')))
+app.use('/public', express.static(path.resolve(__dirname, '..', 'public')))
 
 // Allowed HTTP methods
 const METHODS = {

@@ -33,7 +33,11 @@
     "test": "jest --coverage"
   },
   "eslintConfig": {
-    "extends": "standard"
+    "extends": "standard",
+    "globals": {
+      "test": true,
+      "expect": true
+    }
   },
   "proxy": "http://localhost:9000"
 }
