@@ -36,6 +36,7 @@ export class SystemUptime extends Component
     return (
       <center>
         <h1>System Uptime</h1>
+        <small>This plugin reloads once every {this.props.reloadEvery/1000} second(s)</small>
         <h3>{this.getData()}</h3>
       </center>
     );
