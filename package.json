@@ -33,13 +33,7 @@
     "test": "jest --coverage"
   },
   "eslintConfig": {
-    "extends": "./node_modules/react-scripts/.eslintrc",
-    "env": {
-      "mocha": true
-    },
-    "rules": {
-      "strict": 0
-    }
+    "extends": "standard"
   },
   "proxy": "http://localhost:9000"
 }
