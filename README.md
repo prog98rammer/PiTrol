@@ -32,7 +32,7 @@ TBA
 
 4. Start the app
   ```bash
-    ./node_modules/.bin/babel-node server
+    node server
   ```
 
 ## How to Contribute
