@@ -16,15 +16,15 @@ function getDirectories (srcpath) {
  * @param {array} modules - an array of strings ( module paths )
  * @return array of module's names and its refs
  */
-function requireModulesFromArray(modules) {
-    const _modules = [];
-    modules.forEach(function(module) {
-      let _module = require(path.join(__dirname, module))[0];
-      _modules.push({
-        'name': _module.name,
-        'ref' : _module
-      });
-    });
-    return _modules;
+function requireModulesFromArray (modules) {
+  const _modules = []
+  modules.forEach(function (module) {
+    let _module = require(path.join(__dirname, module))
+    _modules.push({
+      'name': module,
+      'ref': _module
+    })
+  })
+  return _modules
 }
-module.exports = requireModulesFromArray( getDirectories(__dirname) );
+module.exports = requireModulesFromArray(getDirectories(__dirname))

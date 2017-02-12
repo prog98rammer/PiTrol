@@ -1,7 +1,9 @@
-sudo: required
 language: node_js
 node_js:
   - "6"
-  - "6.1"
+  - "7"
 script:
-  - echo "TBA"
+  - "npm run eslint"
+  - "npm run test"
+after_script:
+  - "npm install coveralls && cat coverage/lcov.info | coveralls"

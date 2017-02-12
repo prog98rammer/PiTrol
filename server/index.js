@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const app = require('./app');
+const app = require('./app')
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 9000
 
-app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
+app.listen(PORT, () => console.log(`App listening on port ${PORT}!`))
