@@ -2,7 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/fadeenk/PiTrol/badge.svg?branch=master)](https://coveralls.io/github/fadeenk/PiTrol?branch=master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/fadeenk/PiTrol.svg)](https://greenkeeper.io/)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
-
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/PiTrolx/)
 
 <div align="center">
   <img src="favicon.ico" width=150 />
