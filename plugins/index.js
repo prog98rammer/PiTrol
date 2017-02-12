@@ -8,7 +8,9 @@ const path = require('path')
  */
 function getDirectories (srcpath) {
   return fs.readdirSync(srcpath)
-    .filter(file => fs.statSync(path.join(srcpath, file)).isDirectory())
+    .filter(function(file){
+      return fs.statSync(path.join(srcpath, file)).isDirectory()
+    })
 }
 
 /**
@@ -19,7 +21,7 @@ function getDirectories (srcpath) {
 function requireModulesFromArray (modules) {
   const _modules = []
   modules.forEach(function (module) {
-    let _module = require(path.join(__dirname, module))
+    const _module = require(path.join(__dirname, module))
     _modules.push({
       'name': module,
       'ref': _module
