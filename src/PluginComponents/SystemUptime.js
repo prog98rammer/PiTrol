@@ -4,6 +4,7 @@ export class SystemUptime extends Component
 {
   constructor(props)
   {
+    console.log("I have been called")
     super(props);
     this.state = {
       hours: null,
@@ -17,7 +18,7 @@ export class SystemUptime extends Component
     fetch(this.props.loadFrom)
       .then((res) => res.json())
       .then((res) => this.setState(res))
-      .catch((e) => this.setState({hours: undefined, minutes: undefined, seconds: undefined}));
+      .catch((e) => this.setState({hours: undefined}));
   }
   getData()
   {
