@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {SystemUptime} from './PluginComponents';
+import {PluginComponents} from './PluginComponents'
 
 export default class WebApp extends Component
 {
@@ -7,11 +7,25 @@ export default class WebApp extends Component
   {
     return (
       <div className="fluid-container">
-        <div className="row">
-          <div className="col-md-3">
-            <SystemUptime loadFrom={"/API/PiStatus/SystemUptime"} reloadEvery={30 * 1000} />
-          </div>
-        </div>
+        { PluginComponents.map(function(e, i) {
+          const component = PluginComponents[i];
+          if ((i + 1) % 2 === 0) {
+            return (
+              <div className="row">
+                <div className="col-md-4">
+                  <component.ref {...component.props} />
+                </div>
+              </div>
+            )
+          }
+          else {
+            return (
+              <div className="col-md-4">
+                <component.ref {...component.props} />
+              </div>
+            )
+          }
+        })}
       </div>
     );
   }
