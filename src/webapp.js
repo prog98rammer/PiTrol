@@ -17,9 +17,7 @@ export default class WebApp extends Component
     return (
       <div className="fluid-container">
         <div className="row">
-          <div className="col-md-4">
-            { componentList.map((e, i) => <e.ref {...e.props} />) }
-          </div>
+          { componentList.map((e, i) => <div className="col-md-4"><e.ref {...e.props} /></div>) }
         </div>
       </div>
     );
