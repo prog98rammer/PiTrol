@@ -1,5 +1,14 @@
 import React, { Component } from 'react';
-import {PluginComponents} from './PluginComponents'
+var plugins = require('./plugins')
+
+const componentList = []
+
+for (var i = 0; i < plugins.length; i++)
+{
+  const plugin = plugins[i]
+  const uiComponent = plugin.ref.uiComponent
+  componentList.push(uiComponent)
+}
 
 export default class WebApp extends Component
 {
@@ -7,25 +16,11 @@ export default class WebApp extends Component
   {
     return (
       <div className="fluid-container">
-        { PluginComponents.map(function(e, i) {
-          const component = PluginComponents[i];
-          if ((i + 1) % 2 === 0) {
-            return (
-              <div className="row">
-                <div className="col-md-4">
-                  <component.ref {...component.props} />
-                </div>
-              </div>
-            )
-          }
-          else {
-            return (
-              <div className="col-md-4">
-                <component.ref {...component.props} />
-              </div>
-            )
-          }
-        })}
+        <div className="row">
+          <div className="col-md-4">
+            { componentList.map((e, i) => <e.ref {...e.props} />) }
+          </div>
+        </div>
       </div>
     );
   }

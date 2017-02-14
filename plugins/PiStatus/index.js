@@ -1,20 +1,20 @@
-var os = require('os')
+var requests = require('./requesthandler')
+var ui = require('./uicomponent')
 
-function systemUptime (req, res, next) {
-  var uptime = os.uptime()
-  var data = {
-    hours: parseInt(uptime / 3600, 10),
-    minutes: parseInt((uptime / 60) % 60, 10),
-    seconds: uptime % 60
-  }
-  res.status(200).json(data)
-};
-
-module.exports = [
-  {
-    name: 'SystemUptime',
-    methods: ['GET'],
-    ref: systemUptime
-  }
-  // More features can be added to the list
-]
+module.exports = {
+  uiComponent: {
+    props: {
+      loadFrom: '/API/PiStatus/SystemUptime', // required field
+      reloadEvery: 30 * 1000 // required field
+    },
+    ref: ui.PiStatusComponent
+  },
+  features: [
+    {
+      name: 'SystemUptime', // required field
+      methods: ['GET'], // required field
+      ref: requests.systemUptime // required field
+    }
+    // More features can be added to the list
+  ]
+}

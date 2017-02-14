@@ -41,3 +41,6 @@ jspm_packages
 
 build
 .idea
+
+# Ignore src/plugins in case 'npm run build' fails and 'postbuild' doesn't get invoked
+src/plugins
