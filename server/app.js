@@ -40,8 +40,7 @@ for (var i = 0; i < plugins.length; i++) {
       const pluginFeaturesMethod = pluginFeaturesMethods[k].toUpperCase()
       if (METHODS[pluginFeaturesMethod] === undefined) {
         console.error(`${pluginFeaturesMethod} is invalid on upsupported request. Skipping this feature`)
-      }
-      else {
+      } else {
         const subAPIURL = `/API/${pluginName}/${pluginFeatureName}`
         console.log(`Serving ${pluginFeaturesMethod} @ ${subAPIURL}`)
         METHODS[pluginFeaturesMethod](subAPIURL, pluginFeatureRef)
