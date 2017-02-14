@@ -3,6 +3,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/fadeenk/PiTrol.svg)](https://greenkeeper.io/)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/PiTrolx/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <div align="center">
   <img src="favicon.ico" width=150 />
@@ -12,7 +13,9 @@
 PiTrol is a project that allows you to monitor and control your Raspberry Pi over a web browser.
 
 ## Screenshots
-TBA
+<img src="screenshots/1.png" width=300 />
+<img src="screenshots/2.png" width=300 />
+<img src="screenshots/3.png" width=300 />
 
 ## Usage
 1. Check out a copy of the project
