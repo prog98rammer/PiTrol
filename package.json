@@ -29,7 +29,7 @@
     "start": "react-scripts start",
     "start:server": "node server",
     "eslint": "./node_modules/.bin/eslint .",
-    "build": "react-scripts build",
+    "build": "node move-plugins plugins/ src/ && react-scripts build",
     "eject": "react-scripts eject",
     "test": "jest --coverage"
   },
