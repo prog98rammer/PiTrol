@@ -29,20 +29,23 @@ for (var i = 0; i < plugins.length; i++) {
   */
   const plugin = plugins[i]
   const pluginName = plugin.name
-  const pluginFeatures = plugin.ref
+  const plugingRef = plugin.ref
+  const pluginFeatures = plugingRef.features
   for (var j = 0; j < pluginFeatures.length; j++) {
-    /* Each feature is expected to have a name, a list of HTTP methods, and a reference
-       to the function that's responsible for providing this feature.
-    */
-    const feature = pluginFeatures[j]
-    const featureName = feature.name
-    const featureMethods = feature.methods
-    const featureRef = feature.ref
-    for (var k = 0; k < featureMethods.length; k++) {
-      const method = featureMethods[k].toUpperCase()
-      const subAPIURL = `/API/${pluginName}/${featureName}`
-      console.log(`Serving ${method} request @ ${subAPIURL}`)
-      METHODS[method](subAPIURL, featureRef)
+    const pluginFeature = pluginFeatures[j]
+    const pluginFeatureName = pluginFeature.name
+    const pluginFeaturesMethods = pluginFeature.methods
+    const pluginFeatureRef = pluginFeature.ref
+    for (var k = 0; k < pluginFeaturesMethods.length; k++) {
+      const pluginFeaturesMethod = pluginFeaturesMethods[k].toUpperCase()
+      if (METHODS[pluginFeaturesMethod] === undefined) {
+        console.error(`${pluginFeaturesMethod} is invalid on upsupported request. Skipping this feature`)
+      }
+      else {
+        const subAPIURL = `/API/${pluginName}/${pluginFeatureName}`
+        console.log(`Serving ${pluginFeaturesMethod} @ ${subAPIURL}`)
+        METHODS[pluginFeaturesMethod](subAPIURL, pluginFeatureRef)
+      }
     }
   }
 }
